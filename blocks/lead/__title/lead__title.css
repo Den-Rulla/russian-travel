@@ -8,3 +8,12 @@
   margin: 0 auto;
   padding: 0 0 32px 0;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    max-width: 288px;
+    padding-bottom: 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

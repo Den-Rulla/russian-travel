@@ -1,25 +1,29 @@
-.intro {
-  padding: 92px 0 0 0;
-  max-width: 984px;
+.footer {
   margin: 0 auto;
+  padding: 92px 0 24px 0;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
-  .intro {
+  .footer {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .intro {
+  .footer {
     max-width: 720px;
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro {
-    max-width: 288px;
-    padding-top: 64px;
+  .footer {
+    max-width: 320px;
+    padding: 64px 0 24px 16px;
+    flex-direction: column;
+
   }
 }

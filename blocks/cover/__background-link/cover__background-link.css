@@ -1,5 +1,4 @@
-.cover__background {
-  margin: 0 auto;
+.cover__background-link {
   text-decoration: none;
   color: #fff;
   width: 100%;
@@ -14,7 +13,7 @@
   z-index: 1;
 }
 
-.cover__background::before {
+.cover__background-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -24,8 +23,27 @@
   background-color: #2a2c2f;
   opacity: .3;
   z-index: 0;
+  transition: opacity .3s ease-in-out 0s;
 }
 
-.cover__background:hover::before {
+.cover__background-link:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__background-link {
+    min-height: 640px
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background-link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background-link {
+    min-height: 200px;
+  }
 }
