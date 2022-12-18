@@ -9,10 +9,6 @@
   transition: opacity .3s ease-in-out 0s;
 }
 
-.footer__link:not(:last-child) {
-  margin-right: 18px;
-}
-
 .footer__link:hover {
   opacity: .8;
 }
@@ -21,9 +17,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-  }
-
-  .footer__link:not(:last-child) {
-    padding-bottom: 32px;
   }
 }
