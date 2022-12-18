@@ -21,6 +21,7 @@
     max-width: 720px;
     padding: 88px 0;
     grid-template-columns: repeat(auto-fill, 352px);
+    gap: 16px;
   }
 }
 
