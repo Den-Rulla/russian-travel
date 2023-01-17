@@ -1,0 +1,17 @@
+.header__about-link {
+  margin-right: 70px;
+  color: #fff;
+  text-underline-offset: 5px;
+  transition: opacity .3s ease-in-out 0s;
+}
+
+.header__about-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .header__about-link {
+    margin-right: 10px;
+    text-underline-offset: 4px;
+  }
+}
