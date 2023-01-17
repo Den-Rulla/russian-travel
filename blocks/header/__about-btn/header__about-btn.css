@@ -6,6 +6,7 @@
   text-underline-offset: 5px;
   background-color: unset;
   border: none;
+  cursor: pointer;
   transition: opacity .3s ease-in-out 0s;
 }
 
