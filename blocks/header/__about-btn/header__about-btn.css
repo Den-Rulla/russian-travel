@@ -1,0 +1,22 @@
+.header__about-btn {
+  margin-right: 70px;
+  padding: 0;
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  background-color: unset;
+  border: none;
+  transition: opacity .3s ease-in-out 0s;
+}
+
+.header__about-btn:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .header__about-btn {
+    line-height: 25px;
+    margin-right: 20px;
+    text-underline-offset: 3px;
+  }
+}
