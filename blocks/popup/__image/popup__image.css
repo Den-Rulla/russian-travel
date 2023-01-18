@@ -1,0 +1,21 @@
+.popup__image {
+  margin: 0;
+  padding: 0;
+  width: 565px;
+  height: 343px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  .popup__image {
+    width: 515px;
+    height: 293px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__image {
+    width: 248px;
+    height: 150px;
+  }
+}

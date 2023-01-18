@@ -6,3 +6,17 @@
   font-size: 16px;
   line-height: 26px;
 }
+
+@media screen and (max-width: 1023px) {
+  .popup__text {
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__text {
+    max-width: 260px;
+    padding-top: 15px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.popup__image-cover {
+  margin: 40px 0 0 0;
+  padding: 0;
+  position: relative;
+  max-width: 690px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .popup__image-cover {
+    margin-top: 55px;
+  }
+}
