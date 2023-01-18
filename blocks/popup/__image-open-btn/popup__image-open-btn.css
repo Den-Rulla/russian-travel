@@ -15,3 +15,9 @@
 .popup__image-open-btn:hover {
   opacity: .8;
 }
+
+@media screen and (max-width: 767px) {
+  .popup__image-open-btn {
+    font-size: 14px;
+  }
+}
